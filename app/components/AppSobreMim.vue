@@ -20,11 +20,6 @@ import redirecionarWhatsApp from '~/utils/redirecionar_whatsapp';
                         que me tornou um profissional preparado para desenvolver soluções modernas, eficientes e de
                         qualidade no universo web e de aplicações.
                     </p>
-                    <p>
-                        Hoje eu sou desenvolvedor fullstack sênior na Plusoft InPaaS, uma empresa voltada
-                        para consultoria de software e com o seu produto Hike, um sistema de automatização
-                        de processos - BPM (Business Process Management).
-                    </p>
                     <div class="informacoes-adicionais">
                         <div class="informacoes-adicionais-item">
                             <h1>5+</h1>
