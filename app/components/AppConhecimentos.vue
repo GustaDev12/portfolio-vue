@@ -128,7 +128,7 @@
 
 <style scoped>
 section {
-    background-color: #141414;
+    background-color: #0A0A0A;
     width: 100%;
     display: flex;
     flex-direction: column;
