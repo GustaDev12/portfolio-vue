@@ -86,7 +86,6 @@ function closeModal() {
 section {
   background-color: #141414;
   width: 100%;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   padding: 40px 0;

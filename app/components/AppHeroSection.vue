@@ -14,7 +14,7 @@ section {
     position: relative;
     background:
         linear-gradient(rgba(17, 20, 24, 0.80), rgba(17, 20, 24, 0.80)),
-        url('imagens/background-hero.png') no-repeat center center;
+        url('/imagens/background-hero.png') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
