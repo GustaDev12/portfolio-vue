@@ -1,9 +1,13 @@
+<script>
+import redirecionarWhatsApp from '~/utils/redirecionar_whatsapp';
+</script>
+
 <template>
     <section id="inicio" class="hero-section">
         <div class="container">
             <h1>Bem-vindo</h1>
             <h2>Desenvolvimento de Sites Profissionais e Aplicações Web</h2>
-            <button>Contate-me</button>
+            <button @click="redirecionarWhatsApp">Contate-me</button>
             <IconsSetaIcon class="icone-seta" />
         </div>
     </section>

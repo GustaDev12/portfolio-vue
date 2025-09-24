@@ -1,5 +1,5 @@
 <template>
-    <section id="conhecimentos">
+    <section id="resumo">
         <div class="container">
             <header>
                 <h1>TECNOLOGIAS</h1>
@@ -128,7 +128,7 @@
 
 <style scoped>
 section {
-    background-color: #0A0A0A;
+    background-color: #212529;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -215,7 +215,7 @@ section header h2::after {
 
 .badge {
     position: relative;
-    background: linear-gradient(135deg, #141414 0%, #0C0C0C 100%);
+    background: linear-gradient(135deg, #343A40 0%, #495057 100%);
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 50px;
     padding: 8px 12px;
@@ -298,33 +298,7 @@ section header h2::after {
     height: 100px;
 }
 
-
-
 /* Responsividade */
-
-@media (min-width: 1024px) and (max-width: 1600px) {
-    section {
-        padding: 30px 0;
-    }
-
-    .container {
-        padding: 0 40px;
-    }
-
-    section header {
-        padding: 15px 0 30px 0;
-    }
-
-    section header h1 {
-        font-size: 80px;
-    }
-
-    section header h2 {
-        font-size: 24px;
-    }
-
-}
-
 @media screen and (max-width: 768px) {
     .badges-container {
         gap: 12px;

@@ -3,6 +3,7 @@ import { ref } from 'vue';
 import IconFacebook from './icons/FacebookIcon.vue';
 import IconGithub from './icons/GithubIcon.vue';
 import IconLinkedin from './icons/LinkedinIcon.vue';
+import redirecionarWhatsApp from '~/utils/redirecionar_whatsapp';
 import IconTwitter from './icons/TwitterIcon.vue';
 
 const secoes = [
@@ -71,7 +72,7 @@ const closeMenu = () => {
 
                 <li><a href="#contato" @click="closeMenu" :class="{ active: activeSection === 'contato' }"
                         class="asidebar-lista-item">Contato</a></li>
-                <li class="asidebar-botao-whatsapp" @click="closeMenu">
+                <li class="asidebar-botao-whatsapp" @click="redirecionarWhatsApp">
                     Enviar via WhatsApp
                 </li>
             </ul>

@@ -7,10 +7,4 @@ export default defineNuxtConfig({
   ],
   modules: ['@nuxt/eslint', '@nuxt/image'],
 
-  $meta: {
-    title: 'Portfólio Gustavo',
-    description: 'Portfólio de Gustavo, desenvolvedor front-end',
-    keywords: 'portfólio, gustavo, desenvolvedor front-end',
-    author: 'Gustavo',
-  }
 })

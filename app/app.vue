@@ -1,3 +1,13 @@
+<script setup lang="ts">
+useHead({
+  title: 'Portfólio Gustavo Vinicíus',
+  meta: [
+    { name: 'description', content: 'Portfólio de Gustavo Vinicíus, desenvolvedor front-end' },
+    { name: 'keywords', content: 'portfólio, Gustavo Vinicius, gustavo, desenvolvedor front-end, desenvolvedor full stack' },
+    { name: 'author', content: 'Gustavo Vinicíus' },
+  ]
+})
+</script>
 <template>
   <AppSidebar />
   <div class="container">

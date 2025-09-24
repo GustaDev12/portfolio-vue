@@ -1,30 +1,37 @@
 const depoimentos = [
     {
-        nome: "Marcus Beiró",
-        empresa: "Vendas.in",
-        foto: "https://static.todamateria.com.br/upload/ki/mj/kimjongunillbb.jpg",
-        texto: "Te agradeço a ajuda, empenho que você me deu, um baita profissional!",
+        nome: "Larissa Oliveira",
+        empresa: "Estúdio Criativo",
+        foto: "https://randomuser.me/api/portraits/women/44.jpg",
+        texto: "O Gustavo superou minhas expectativas! Resolveu todos os detalhes técnicos e ainda sugeriu melhorias que fizeram toda a diferença.",
         avaliacao: 5
     },
     {
-        nome: "Jorge Ramos",
-        empresa: "Terapia do Dia",
-        foto: "https://static.todamateria.com.br/upload/ki/mj/kimjongunillbb.jpg",
-        texto: "O Thalnan conseguiu me auxiliar com profissionalismo e habilidade técnica, tirou todas as dúvidas, me explicou os itens e corrigiu os bug conforme solicitado",
+        nome: "Ricardo Fernandes",
+        empresa: "Clínica Bem Viver",
+        foto: "https://randomuser.me/api/portraits/men/32.jpg",
+        texto: "Excelente profissional! Me ajudou com paciência e clareza, deixou tudo funcionando perfeitamente. Recomendo demais!",
         avaliacao: 5
     },
     {
-        nome: "Ana Silva",
-        empresa: "Tech Solutions",
-        foto: "https://static.todamateria.com.br/upload/ki/mj/kimjongunillbb.jpg",
-        texto: "Excelente trabalho! Entregou tudo no prazo e com qualidade excepcional.",
+        nome: "Beatriz Santos",
+        empresa: "StartUp Digital",
+        foto: "https://randomuser.me/api/portraits/women/12.jpg",
+        texto: "Gostei muito do resultado, entregou rápido e com qualidade. Muito obrigada pelo suporte e dedicação.",
         avaliacao: 5
     },
     {
-        nome: "Carlos Santos",
-        empresa: "Digital Marketing",
-        foto: "https://static.todamateria.com.br/upload/ki/mj/kimjongunillbb.jpg",
-        texto: "Profissional muito competente, recomendo para qualquer projeto de desenvolvimento.",
+        nome: "André Almeida",
+        empresa: "EducaMais",
+        foto: "https://randomuser.me/api/portraits/men/65.jpg",
+        texto: "O Gustavo foi essencial para resolver um problema que já durava semanas. Comunicação clara e entrega no prazo.",
+        avaliacao: 5
+    },
+    {
+        nome: "Camila Costa",
+        empresa: "Loja Online Floratta",
+        foto: "https://randomuser.me/api/portraits/women/29.jpg",
+        texto: "Fiquei muito satisfeita com o resultado. Ele não só fez o que pedi, mas também trouxe soluções criativas que melhoraram meu projeto.",
         avaliacao: 5
     }
 ]

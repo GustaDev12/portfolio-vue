@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import redirecionarWhatsApp from '~/utils/redirecionar_whatsapp';
+
+</script>
+
 <template>
     <section id="sobre-mim">
         <div class="container">
@@ -9,9 +14,11 @@
                 <div class="grid-1">
                     <h1>Eu sou <span>Gustavo Vinicíus</span>, um desenvolvedor full stack</h1>
                     <p>
-                        Já estou na área há 8 anos profissionalmente, mas comecei a "codar" desde os meus 11
-                        anos de idade. Desenvolvi vários projetos para empresas com nomes grandes no
-                        mercado, com diferentes regras de negócios.
+                        Atuo na área de desenvolvimento de sites e aplicações há 4 anos, mas programo desde os 14 anos.
+                        Meu início foi criando scripts para o MTA (Multi Theft Auto) e, desde então, nunca mais parei.
+                        Ao longo da minha jornada, aprofundei meus conhecimentos em diversas tecnologias e frameworks, o
+                        que me tornou um profissional preparado para desenvolver soluções modernas, eficientes e de
+                        qualidade no universo web e de aplicações.
                     </p>
                     <p>
                         Hoje eu sou desenvolvedor fullstack sênior na Plusoft InPaaS, uma empresa voltada
@@ -20,20 +27,16 @@
                     </p>
                     <div class="informacoes-adicionais">
                         <div class="informacoes-adicionais-item">
-                            <h1>8+</h1>
+                            <h1>5+</h1>
                             <span>Anos de experiência</span>
                         </div>
                         <div class="informacoes-adicionais-item">
-                            <h1>10+</h1>
+                            <h1>20+</h1>
                             <span>Clientes Satisfeitos</span>
                         </div>
                         <div class="informacoes-adicionais-item">
                             <h1>10+</h1>
                             <span>Projetos realizados</span>
-                        </div>
-                        <div class="informacoes-adicionais-item">
-                            <h1>9</h1>
-                            <span>Empresas trabalhadas/produtos</span>
                         </div>
                     </div>
                 </div>
@@ -41,7 +44,7 @@
                     <h1>Nome: <span>Gustavo Vinicíus</span></h1>
                     <h1>Email: <span>gustavozinho7@gmail.com</span></h1>
                     <h1>Idade: <span>18 anos</span></h1>
-                    <div class="asidebar-botao-whatsapp">
+                    <div @click="redirecionarWhatsApp" class="asidebar-botao-whatsapp">
                         Enviar via WhatsApp
                     </div>
                 </div>
@@ -216,7 +219,7 @@ section header h2::after {
     align-items: center;
 }
 
-.informacoes-adicionais-item:nth-child(4n) {
+.informacoes-adicionais-item:nth-child(3n) {
     border-right: none;
 }
 
@@ -256,7 +259,7 @@ section header h2::after {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1600px)  {
+@media (min-width: 1024px) and (max-width: 1600px) {
     section {
         padding: 30px 0;
     }
